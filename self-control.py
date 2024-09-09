@@ -3,7 +3,6 @@ import datetime
 from discord.ext import commands
 import asyncio
 import os
-from openai import OpenAI
 
 # Discord bot token (insert your token here)
 TOKEN = " "

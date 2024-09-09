@@ -28,14 +28,13 @@ Ensure you have the required Python libraries installed. You can install them us
 
 ```bash
 pip install discord.py
-pip install openai  # Optional, depending on usage
 ```
 
 ## Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/PedYekt/Python-Discord-self-bot.git
+   git clone https://github.com/PedYekt/Python-Discord-self-bot
    ```
 
 2. **Install Dependencies:**
