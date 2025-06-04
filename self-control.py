@@ -55,7 +55,7 @@ async def purge(ctx, limit: int):
         deleted_count = 0
         # Fetch message history and delete the bot's messages
         async for message in ctx.channel.history(limit=1000):
-            if deleted_count > limit:
+            if deleted_count >= limit:
                 break
             if message.author == bot.user:
                 await message.delete()
